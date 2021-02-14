@@ -73,3 +73,19 @@
 ### BFS
 
 - 미로탈출
+
+## day6
+
+### UnionFind
+
+1. find
+2. Union
+3. 시간복잡도
+
+## day8
+
+### DFS_BFS
+
+- BOJ_1260 DFS와 BFS
+- BOJ_2606 바이러스
+- BOJ_2667 단지번호붙이기

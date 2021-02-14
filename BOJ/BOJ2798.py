@@ -13,7 +13,8 @@ from itertools import combinations
 n, m = map(int,input().split()) # n, m 입력
 
 data = list(map(int,input().split())) # 카드 입력
-# print(list(combinations(data,3)))
+print(list(combinations(data,3)))
+
 answer = 0 # 정답 초기화
 for num in combinations(data,3): # data에서 서로다른 3개 뽑는 조합
     data_sum = sum(num) # 해당 조합의 합

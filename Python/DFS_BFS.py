@@ -84,7 +84,7 @@ def recursive_function(i):
 
 recursive_function(1)
 '''
-'''
+
 # 팩토리얼 구현 예제
 # n! = 1 * 2 * 3 * 4 * ... *(n-1) * n
 # 수학적으로 0! 과 1!의 값은 1입니다.
@@ -217,9 +217,10 @@ bfs(graph, 1, visited)
 # <문제> 음료수 얼려 먹기
 
 # DFS로 특정 노드를 방문하고 연결된 모든 노드들도 방문
+'''
 def dfs(x,y):
     # 주어진 범위를 벗어나는 경우에는 즉시 종료
-    if x<= -1 or x>= n or y<= -1 or y >=m;
+    if x<= -1 or x>= n or y<= -1 or y >=m:
         return False
     # 현재 노드를 아직 방문하지 않았다면
     if graph[x][y] == 0:
@@ -249,10 +250,10 @@ for i in range(n):
             result += 1
 
 print(result) # 정답 출력
+
 '''
-
 # 미로 탈출
-
+'''
 # bfs 소스코드 구현
 from collections import deque
 
@@ -268,7 +269,7 @@ dy = [0, 0, -1, 1]
 
 print(bfs(0,0))
 
-def bfs(x,y):
+#def bfs(x,y):
     # 큐 구현을 위해 deque 라이브러리 사용
     queue = deque()
     queue.append((x,y))
@@ -292,3 +293,4 @@ def bfs(x,y):
     # 가장 오른쪽 아래까지의 최단 거리 반환
     return graph[n - 1][m - 1]
 
+'''
